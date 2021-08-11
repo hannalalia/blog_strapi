@@ -24,7 +24,8 @@
     "rating": {
       "type": "integer",
       "max": 5,
-      "min": 1
+      "min": 0,
+      "default": 0
     },
     "tags": {
       "collection": "tag",
